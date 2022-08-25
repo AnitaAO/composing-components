@@ -1,0 +1,100 @@
+#root{
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  background-color: aliceblue;
+  padding: 1rem 3rem;
+  
+}
+
+.navbar-brand{
+  text-decoration: none;
+}
+
+.badge-pill{
+  background-color: rgb(8, 104, 107);
+  border-radius: 100%;
+  padding: 0.15rem 0.5rem;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: white;
+}
+
+.badge-primary{
+  background-color: rgb(223, 177, 7);
+  margin: 0.50rem;
+  padding: 0.20rem 0.5rem;
+}
+
+.badge-secondary{
+  background-color: rgb(50, 7, 223);
+  color: white;
+  margin: 0.50rem;
+  padding: 0.20rem 0.5rem;
+}
+
+.btn-increment{
+  background-color: #1b1e25;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  margin: 0.50rem;
+  border: none;
+}
+
+.btn-delete{
+  background-color: red;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  margin: 0.50rem;
+  border: none;
+}
+
+.btn-reset{
+  padding: 0.25rem 0.5rem;
+  margin: 0.5rem;
+  background-color: blue;
+  color: white;
+  border: none;
+}
